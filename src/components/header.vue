@@ -5,8 +5,8 @@ const showMenu=ref(false)
 
 </script>
 <template>
-    <div>
-      <div class="bg-white dark:bg-[#090a11]">
+    <div class="fixed top-0 left-0 w-full z-50">
+      <div class=" relative bg-white dark:bg-[#090a11]">
         <nav
           class="
             container
