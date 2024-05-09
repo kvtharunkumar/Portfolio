@@ -1,7 +1,8 @@
 <script setup>
 import DayLightMode from '../UI/DayLightMode.vue';
-import {ref} from 'vue';
+import {ref,defineEmits} from 'vue';
 const showMenu=ref(false)
+
 
 </script>
 <template>
@@ -32,9 +33,10 @@ const showMenu=ref(false)
                 hover:text-[#ee7534]
               "
               >K V Tharun Kumar
+    
             </router-link>
             <!-- Mobile menu button -->
-            <div @click="showMenu = !showMenu" class="flex lg:hidden">
+            <div @click="showMenu =!showMenu" class="flex lg:hidden">
               <button
                 type="button"
                 class="
