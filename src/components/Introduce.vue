@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted,inject } from 'vue';
 
 // Create a reference to the typing animation element
 const typingAnimationElement = ref(null);
@@ -29,13 +29,21 @@ function playTypingAnimation(text) {
 onMounted(() => {
   playTypingAnimation(typingTexts[0]);
 });
+
+
+
 </script>
 <template>
-   <div class="grid lg:grid-cols-2 h-screen lg:pt-5   ">
-<div class="flex  mt-10 flex-col justify-center ml-[100px] text-[#ee7534] dark:text-[#5bc775]
+    <headers/>
+
+   <div class="grid lg:grid-cols-2 h-screen lg:pt-5 pt-28 grid-cols-1    ">
+<div class="flex  mt-10 flex-col justify-center lg:ml-[100px] m-5 text-[#ee7534] dark:text-[#5bc775]
                 ">
     <h1>Hello!</h1>
     <p class="text-[45px] font-bold  "><span class="text-black dark:text-white">I'm </span>K V THARUN KUMAR</p>
+    <p class="text-black text-justify text-[13px] font-medium dark:font-normal dark:text-white">An independent and self-motivated developer with coding and problem solving skills. Seeking a
+challenging role at an IT organization to utilize my technical and problem solving skills to the
+company's growth as well as enhance my knowledge by exploring new things.</p>
     <span class="relative lg:inline-block inline font-bold text-black dark:text-white text-3xl lg:overflow-hidden overflow-hidden whitespace-nowrap mt-6">
   <span ref="typingAnimationElement"></span>
   <span class="absolute top-0 left-0 w-0 h-full bg-gray-300 animate-cursor"></span>
@@ -53,8 +61,8 @@ onMounted(() => {
                   
     
 </div>
-<div class="flex justify-center mt-[100px]">
-    <img class=" w-[500px] h-[500px]  justify-center" src='../assets/mine.png'>
+<div class="lg:flex lg:justify-center lg:mt-[100px] hidden ">
+    <img class=" lg:w-[500px] lg:h-[500px]  justify-center" src='../assets/mine.png'>
 </div>
    </div>
 
