@@ -36,7 +36,7 @@ onMounted(() => {
 <template>
     <headers/>
 
-   <div class="grid lg:grid-cols-2 h-screen lg:pt-5 pt-28 grid-cols-1    ">
+   <div class="grid lg:grid-cols-2 lg:h-screen h-[800px] lg:pt-5 pt-28 grid-cols-1    ">
 <div class="flex  mt-10 flex-col justify-center lg:ml-[100px] m-5 text-[#ee7534] dark:text-[#5bc775]
                 ">
     <h1>Hello!</h1>
@@ -62,7 +62,7 @@ company's growth as well as enhance my knowledge by exploring new things.</p>
     
 </div>
 <div class="lg:flex lg:justify-center lg:mt-[100px] hidden ">
-    <img class=" lg:w-[500px] lg:h-[500px]  justify-center" src='../assets/mine.png'>
+    <img class=" lg:w-[500px] lg:h-[500px]  lg:justify-center max-md:hidden " src='../assets/mine.png'>
 </div>
    </div>
 
