@@ -1,5 +1,5 @@
 <template>
-<p class="
+<p class=" flex
                 m-[20px]
                 font-display
                 text-[#36454F]
@@ -7,12 +7,14 @@
                 dark:text-white
                 text-3xl
                 font-semibold
-                lg:ml-[100px]
+                justify-center
+                max-sm:justify-normal
                 cursor-pointer
                 hover:text-[#ee7534]
               ">
     Skills
 </p>    
+<!-- <div class=" flex lg:w-[1300px] lg:h-[0.5px] dark:bg-[#5bc775] lg:mt-[5px] lg:ml-[80px] lg:mr-[50px] lg:mb-10  bg-[#ee7534]"></div> -->
 <div class="lg:grid lg:grid-cols-4 grid grid-cols-2 max-sm:grid-cols-1 text-black dark:text-white ml-10  lg:ml-[100px] lg:space-x-10 gap-10 ">
     <div clss="flex flex-col  space-y-10">
         <p class="text-[20px]">Programming</p>
