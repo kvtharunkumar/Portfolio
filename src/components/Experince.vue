@@ -18,7 +18,7 @@
 
 <!-- </div> -->
     </div>
-    <div class=" mt-5 flex lg:w-[1300px] h-auto border-none rounded-md dark:bg-[#1d1c1c] bg-[#e0e0e0] lg:ml-[80px] pb-10 ml-[10px] mr-[10px]" >
+    <div class=" mt-5 transition-all ease-in-out duration-[0.2s]  hover:-translate-y-0.5 hover:scale-[1.01] flex lg:w-[1300px] h-auto border-none rounded-md dark:bg-[#1d1c1c] bg-gray-100/50 lg:ml-[80px] pb-10 ml-[10px] mr-[10px]  shadow-md dark:hover:shadow-green-500/30 hover:shadow-[#ee7534]/50" >
         <div class="flex flex-col justify-center">
         <div class="flex justify-center max-sm:justify-normal">
             <p class="

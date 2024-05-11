@@ -18,8 +18,8 @@
 
 </div> -->
     </div>
-    <div class="grid lg:grid-cols-2 grid-rows-2 justify-evenly mt-10  lg:w-[1300px] h-auto border-none rounded-md lg:ml-[80px] pb-10 ml-[10px] mr-[10px]  " >
-        <div class="p-[20px] bg-[#e0e0e0]  dark:bg-[#1d1c1c] border-none rounded-md lg:mr-10 mb-5 pb-[50px]">
+    <div class="grid lg:grid-cols-2 grid-rows-2 justify-evenly mt-10  lg:w-[1300px] h-auto border-none rounded-md lg:ml-[80px] pb-10 ml-[10px] mr-[10px] lg:-mb-[200px]  " >
+        <div class="transition-all ease-in-out duration-[0.2s]  hover:-translate-y-0.5 hover:scale-[1.01] shadow-md dark:hover:shadow-green-500/30 hover:shadow-[#ee7534]/50 p-[20px] bg-gray-100/50  dark:bg-[#1d1c1c] border-none rounded-md lg:mr-10 mb-5 pb-[50px]">
     
         <div class="flex flex-col justify-center">
         <div class="flex justify-center max-sm:justify-normal">
@@ -77,7 +77,7 @@
 
 </div>
 </div>
-<div class="p-[20px] bg-[#e0e0e0]  dark:bg-[#1d1c1c] border-none rounded-md lg:mr-10 mb-5">
+<div class="transition-all ease-in-out duration-[0.2s]  hover:-translate-y-0.5 hover:scale-[1.01] shadow-md dark:hover:shadow-green-500/30 hover:shadow-[#ee7534]/50  p-[20px] bg-gray-100/50 dark:bg-[#1d1c1c] border-none rounded-md lg:mr-10 mb-5">
     
     <div class="flex flex-col justify-center">
     <div class="flex justify-start max-sm:justify-normal">
