@@ -7,7 +7,9 @@ import Experince from './components/Experince.vue';
 import Education from './components/Education.vue';
 import Projects from './components/Projects.vue';
 import resume from './components/resume.vue';
-import contatc from './components/contatc.vue';
+import mycontact from './components/mycontact.vue';
+
+import forms from './components/form.vue';
 </script>
   <template>
   
@@ -19,6 +21,7 @@ import contatc from './components/contatc.vue';
       <Education/>
       <Projects/>
       <resume/>
-      <contatc/>
+      <mycontact/>
+      <forms/>
  
 </template>

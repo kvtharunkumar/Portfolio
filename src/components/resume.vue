@@ -15,9 +15,9 @@
         <div class="inset-0 flex space-x-10 lg:flex-row flex-col items-center justify-evenly lg:ml-[500px] gap-10 cursor-pointer">
             <p class="text-white text-justify font-bold text-5xl text-inline">Download</p>
 
-            <button class="dark:bg-green-500 bg-[#ee7534] cursor-pointer text-white px-10 py-4 max-lg:mb-10 rounded-full text-lg max-sm:mr-10 font-bold">
+            <a href="https://drive.google.com/file/d/16pU0p0r9hcjN3LPjYmvrtk9sXQ4meDJf/view?usp=drive_link"> <button class="dark:bg-green-500 bg-[#ee7534] cursor-pointer text-white px-10 py-4 max-lg:mb-10 rounded-full text-lg max-sm:mr-10 font-bold">
                  Resume
-            </button>
+            </button></a>
         </div>
     </div>
     <div class="absolute">
