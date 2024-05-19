@@ -1,21 +1,11 @@
-
 <script setup>
-import headers  from './components/header.vue';
-import About from './views/About.vue';
-import Skills from './components/Skills.vue';
-import Experince from './components/Experince.vue';
-import Education from './components/Education.vue';
-
-
+import { RouterView } from "vue-router";
+import Skills from "./views/Skills.vue";
+import Header from "./views/header.vue";
 </script>
-  <template>
-  
 
-      <headers/>
-      <About/>
-      <Skills/>
-      <Experince/>
-      <Education/>
-      
- 
+<template>
+  <Header />
+  <RouterView />
+
 </template>
