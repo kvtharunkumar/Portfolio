@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col justify-center">
+    <div class="flex flex-col justify-center lg:mt-[200px]">
         <div class="flex justify-center max-sm:justify-normal"><p class="
                 m-[20px]
                 font-display

@@ -1,5 +1,6 @@
 <template>
-  <div class="flex flex-col justify-center mt-10">
+    <section id="projects-section">
+  <div class="flex flex-col justify-center mt-[90px] lg:mt-[100px]">
       <div class="flex justify-center max-sm:justify-normal"><p class="
               m-[20px]
               font-display
@@ -244,7 +245,7 @@ digit counting applications so by cascading together digital counters, 4
 </div>
 </div>
   </div>
-  
+</section>
 </template>
 
 

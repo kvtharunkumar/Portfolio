@@ -1,4 +1,5 @@
 <template>
+  <div id="">
 <p class=" flex
                 m-[20px]
                 font-display
@@ -11,6 +12,7 @@
                 max-sm:justify-normal
                 cursor-pointer
                 hover:text-[#ee7534]
+                mt-[90px] lg:mt-[150px]
               ">
     Skills
 </p>    
@@ -85,5 +87,6 @@
         </div>
             </div>
     
+</div>
 </div>
 </template>

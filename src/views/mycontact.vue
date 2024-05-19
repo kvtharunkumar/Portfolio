@@ -1,5 +1,9 @@
+<script setup>
+import forms from '../views/form.vue'
+</script>
+
 <template>
-    <div class="bg-white dark:bg-black py-12">
+    <div class="bg-white dark:bg-black py-12    mt-[90px] lg:mt-[100px]">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="lg:text-center">
               <h2 class="text-base dark:text-green-500 text-[#ee7534] font-semibold tracking-wide uppercase">Contact Me</h2>
@@ -101,5 +105,6 @@
           </div>
       </div>
   </div>
- 
+ <forms/>
   </template>
+

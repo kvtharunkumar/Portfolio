@@ -5,7 +5,7 @@ import { ref, onMounted,inject } from 'vue';
 const typingAnimationElement = ref(null);
 
 // Create an array of typing text
-const typingTexts = [ 'Vue.JS Developer' , 'Full Stack', 'Machine Learning'];
+const typingTexts = ['Software Developer',  'Machine Learning','Vue.JS Developer' ];
 
 // Create a function to display the typing animation for a given text
 function playTypingAnimation(text) {
