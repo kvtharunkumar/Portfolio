@@ -30,23 +30,7 @@ onMounted(() => {
   playTypingAnimation(typingTexts[0]);
 });
 
-const downloadResume = () => {
-      const url = 'http://localhost:3000/download-resume'; // Replace with your backend URL
-      fetch(url)
-        .then(response => response.blob())
-        .then(blob => {
-          const url = window.URL.createObjectURL(new Blob([blob]));
-          const link = document.createElement('a');
-          link.href = url;
-          link.setAttribute('download', 'resume.pdf'); // Change the filename if needed
-          document.body.appendChild(link);
-          link.click();
-          link.parentNode.removeChild(link);
-        })
-        .catch(error => {
-          console.error('Error downloading resume:', error);
-        });
-    };
+
 
 </script>
 <template>
@@ -72,11 +56,11 @@ const downloadResume = () => {
 </svg>
 </button>
 </a>
-<button @click="downloadResume" class="ml-[60px]" >
+<a href="https://drive.google.com/file/d/1WV354qtbqQpuQvM0AkZH_Z3qifU0_7V5/view?usp=drive_link"> <button class="" >
   <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
   <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0m2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755"/>
 </svg>
-</button>
+</button></a>
 </div>
 
                   
