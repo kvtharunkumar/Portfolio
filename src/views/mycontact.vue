@@ -105,7 +105,10 @@
           </div>
         </div>
     </div>
-    <p class="lg:ml-[500px] max-sm:ml-4 ml-[150px]">Copyright © 2023 K V Tharun Kumar. All Rights Reserved.</p>
+    <div class="dark:bg-black">
 
+   
+    <p class="lg:ml-[500px] max-sm:ml-4 ml-[150px] dark:text-white ">Copyright © 2024 K V Tharun Kumar. All Rights Reserved.</p>
+</div>
   </template>
 

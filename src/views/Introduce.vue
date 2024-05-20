@@ -57,7 +57,7 @@ const downloadResume = () => {
                 ">
     <h1>Hello!</h1>
     <p class="text-[45px] font-bold  "><span class="text-black dark:text-white">I'm </span>K V THARUN KUMAR</p>
-    <p class="text-black text-justify text-[13px] font-medium dark:font-normal dark:text-white">I'm a versatile software developer with a passion for crafting innovative digital solutions. With expertise in web development and backend programming, I blend creativity with robust technical skills to deliver seamless, user-centered experiences. Explore my projects to witness the fusion of code and creativity.</p>
+    <p class="text-black text-justify text-[13px] font-medium dark:font-normal dark:text-white">I'm a versatile software developer with a passion for crafting innovative digital solutions. With expertise in Machine Learning and Backend programming, I blend creativity with robust technical skills to deliver seamless, user-centered experiences. Explore my projects to witness the fusion of code and creativity.</p>
     <span class="relative lg:inline-block inline font-bold text-black dark:text-white text-3xl lg:overflow-hidden overflow-hidden whitespace-nowrap mt-6">
   <span ref="typingAnimationElement"></span>
   <span class="absolute top-0 left-0 w-0 h-full bg-gray-300 animate-cursor"></span>

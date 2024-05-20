@@ -75,6 +75,13 @@ const scrollToSection = (sectionId) => {
             Experience
           </RouterLink>
           <RouterLink
+            to="/education"
+            @click.prevent="scrollToSection('projects-section')"
+            class="font-display text-[#36454F] dark:hover:text-green-500 dark:text-white text-md font-bold cursor-pointer hover:text-[#ee7534]"
+          >
+           Education
+          </RouterLink>
+          <RouterLink
             to="/resume"
             class="font-display text-[#36454F] dark:hover:text-green-500 dark:text-white text-md font-bold cursor-pointer hover:text-[#ee7534]"
           >
