@@ -1,5 +1,5 @@
 <script setup>
-import forms from '../views/form.vue'
+
 </script>
 
 <template>
@@ -103,8 +103,9 @@ import forms from '../views/form.vue'
                   </div>
               </dl>
           </div>
-      </div>
-  </div>
- <forms/>
+        </div>
+    </div>
+    <p class="lg:ml-[500px] max-sm:ml-4 ml-[150px]">Copyright © 2023 K V Tharun Kumar. All Rights Reserved.</p>
+
   </template>
 

@@ -30,20 +30,34 @@ onMounted(() => {
   playTypingAnimation(typingTexts[0]);
 });
 
-
+const downloadResume = () => {
+      const url = 'http://localhost:3000/download-resume'; // Replace with your backend URL
+      fetch(url)
+        .then(response => response.blob())
+        .then(blob => {
+          const url = window.URL.createObjectURL(new Blob([blob]));
+          const link = document.createElement('a');
+          link.href = url;
+          link.setAttribute('download', 'resume.pdf'); // Change the filename if needed
+          document.body.appendChild(link);
+          link.click();
+          link.parentNode.removeChild(link);
+        })
+        .catch(error => {
+          console.error('Error downloading resume:', error);
+        });
+    };
 
 </script>
 <template>
-    <headers/>
+
 
    <div class="lg:grid lg:grid-cols-2  flex flex-col-reverse lg:h-screen h-[800px] lg:pt-5 pt-28 grid-cols-1 max-md:mt-[600px] max-sm:mt-[330px]    ">
-<div class="flex  mt-10 flex-col justify-center lg:ml-[100px] m-5 text-[#ee7534] dark:text-[#5bc775]
+<div class="flex  mt-[50px] flex-col justify-center lg:ml-[100px] m-5 text-[#ee7534] dark:text-[#5bc775]
                 ">
     <h1>Hello!</h1>
     <p class="text-[45px] font-bold  "><span class="text-black dark:text-white">I'm </span>K V THARUN KUMAR</p>
-    <p class="text-black text-justify text-[13px] font-medium dark:font-normal dark:text-white">An independent and self-motivated developer with coding and problem solving skills. Seeking a
-challenging role at an IT organization to utilize my technical and problem solving skills to the
-company's growth as well as enhance my knowledge by exploring new things.</p>
+    <p class="text-black text-justify text-[13px] font-medium dark:font-normal dark:text-white">I'm a versatile software developer with a passion for crafting innovative digital solutions. With expertise in web development and backend programming, I blend creativity with robust technical skills to deliver seamless, user-centered experiences. Explore my projects to witness the fusion of code and creativity.</p>
     <span class="relative lg:inline-block inline font-bold text-black dark:text-white text-3xl lg:overflow-hidden overflow-hidden whitespace-nowrap mt-6">
   <span ref="typingAnimationElement"></span>
   <span class="absolute top-0 left-0 w-0 h-full bg-gray-300 animate-cursor"></span>
@@ -55,7 +69,14 @@ company's growth as well as enhance my knowledge by exploring new things.</p>
 </button></a>
 <a href="https://github.com/kvtharunkumar"><button class="size-8"><svg  xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
   <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-</svg></button></a>
+</svg>
+</button>
+</a>
+<button @click="downloadResume" class="ml-[60px]" >
+  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-file-earmark-person-fill" viewBox="0 0 16 16">
+  <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0m2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755"/>
+</svg>
+</button>
 </div>
 
                   

@@ -12,6 +12,9 @@
     "@vueuse/core": "^10.9.0",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13",
     "vue": "^3.4.21",
     "vue-router": "^4.3.2"
   },
