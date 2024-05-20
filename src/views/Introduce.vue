@@ -36,7 +36,7 @@ onMounted(() => {
 <template>
 
 
-   <div class="lg:grid lg:grid-cols-2  flex flex-col-reverse lg:h-screen h-[800px] lg:pt-5 pt-28 grid-cols-1 max-md:mt-[600px] max-lg:mt-[100px] max-sm:mt-[330px]    ">
+   <div class="lg:grid lg:grid-cols-2  flex flex-col-reverse lg:h-screen h-[800px] lg:pt-5 pt-28 grid-cols-1 max-md:mt-[600px] max-sm:mt-[330px]    ">
 <div class="flex  mt-[50px] flex-col justify-center lg:ml-[100px] m-5 text-[#ee7534] dark:text-[#5bc775]
                 ">
     <h1>Hello!</h1>
