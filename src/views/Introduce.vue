@@ -86,7 +86,7 @@ const downloadResume = () => {
     <!-- <img class=" lg:w-[500px] lg:h-[500px]  lg:justify-center max-md:hidden " src='../assets/mine.png'> -->
  
       <div class="inner-skew lg:w-[60%] lg:h-[55%] md:w-[50%] md:h[60%] h-[60%] dark:bg-[#1d1c1c] bg-[#f2efef] ">
-        <img class="object-fill h-auto" src="../assets/mine.JPG">
+        <img class="object-fill h-auto" src="../assets/mine.jpg">
       </div>
     
 </div>
